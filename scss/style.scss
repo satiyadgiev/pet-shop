@@ -15,3 +15,37 @@ body, html {
     padding: 0;
     font-family: 'Inter';
 }
+.container {
+    width: 1125px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    padding: 22px 0;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__nav {
+        ul {
+            display: flex;
+            column-gap: 38px;
+        }
+    }
+    &__search-block {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        img {
+            padding: 13px;
+            border: 1px #EFEFEF solid;
+            border-radius: 30px;
+        }
+        input {
+            padding: 13px 0 13px 16px;
+            border: 1px #EFEFEF solid;
+            border-radius: 30px;
+        }
+    }
+}
