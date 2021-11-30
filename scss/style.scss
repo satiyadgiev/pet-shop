@@ -235,3 +235,36 @@ body {
         column-gap: 30px;
     }
 }
+.shelter {
+    &__wrapper {
+        display: flex;
+        column-gap: 30px;
+    }
+    &__block {
+        max-width: 540px;
+    }
+    &__video {
+        display: flex;
+        flex-direction: column;
+        &-info {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            h3 {
+                font-weight: 700;
+                font-size: 32px;
+            }
+        }
+    }
+    &__info {
+        line-height: 28.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        &-title h2 {
+            font-size: 32px;
+        }
+    }
+}

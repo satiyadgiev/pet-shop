@@ -228,4 +228,36 @@ body, html {
   column-gap: 30px;
 }
 
+.shelter__wrapper {
+  display: flex;
+  column-gap: 30px;
+}
+.shelter__block {
+  max-width: 540px;
+}
+.shelter__video {
+  display: flex;
+  flex-direction: column;
+}
+.shelter__video-info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.shelter__video-info h3 {
+  font-weight: 700;
+  font-size: 32px;
+}
+.shelter__info {
+  line-height: 28.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.shelter__info-title h2 {
+  font-size: 32px;
+}
+
 /*# sourceMappingURL=style.css.map */
